@@ -16,7 +16,7 @@ This repository has the code for ACL'18 paper: To Attend or not to Attend: A Cas
 
 ## How to run the code?
 Download any model(eg. treelstm_const_attn) and please:
-* Change ‘–glove’ argument in **config.py** to point to the location of downloaded Glove embeddings.
+* Change value of  **default** in **–glove** argument in **config.py** to point to the location of downloaded Glove embeddings.
 * Change path of following in **scripts/preprocess-sick.py** to point to downloaded train, trial and test datasets, respectively:
 	* file0 ---- location of train dataset file
 	* file1 ---- location of trial(dev) dataset file
