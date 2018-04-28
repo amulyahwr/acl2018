@@ -15,7 +15,7 @@ This repository has the code for ACL'18 paper: To Attend or not to Attend: A Cas
 * I used this [utility library]() for Stanford Parser, Stanford POS Tagger, Stanford Dependency Parser and Stanford Constituency Parser.
 
 ## How to run the code?
-Download any model(eg. treelstm_const_attn) and please:
+Download any model(eg. linear_bilstm_attn) and please:
 * Change value of  **default** in **–glove** argument in **config.py** to point to the location of downloaded Glove embeddings.
 * Change path of following in **scripts/preprocess-sick.py** to point to downloaded train, trial and test datasets, respectively:
 	* file0 ---- location of train dataset file
