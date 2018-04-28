@@ -12,7 +12,7 @@ This repository has the code for ACL'18 paper: To Attend or not to Attend: A Cas
 	* TrialData
 * [Glove embeddings](https://nlp.stanford.edu/projects/glove/)
 	* Common Crawl (840B)
-* I used this [utility library]() for Stanford Parser, Stanford POS Tagger, Stanford Dependency Parser and Stanford Constituency Parser.
+* I used this [library](https://iastate.box.com/s/o1izis36zlfsxvu8tzw5ij745xwbrcu9) for Stanford Parser, Stanford POS Tagger, Stanford Dependency Parser and Stanford Constituency Parser.
 
 ## How to run the code?
 Download any model(eg. linear_bilstm_attn) and please:
@@ -21,7 +21,7 @@ Download any model(eg. linear_bilstm_attn) and please:
 	* file0 ---- location of train dataset file
 	* file1 ---- location of trial(dev) dataset file
 	* file2 ---- location of test dataset file
-* Put the downloaded **utility library** as shown above.
+* Put the downloaded **library(lib)** as shown above.
 ![file_structure](./markup_imgs/file_structure.png)
 * Go to folder **scripts** and run command:
 	* python preprocess-sick.py
