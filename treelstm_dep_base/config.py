@@ -5,8 +5,11 @@ def parse_args():
     #
     parser.add_argument('--data', default='./sick',
                         help='path to dataset')
+
+    #path to Glove embeddings
     parser.add_argument('--glove', default='',
                         help='directory with Glove embeddings')
+
     parser.add_argument('--save', default='checkpoints/',
                         help='directory to save checkpoints in')
     parser.add_argument('--expname', type=str, default='test',
@@ -25,7 +28,7 @@ def parse_args():
                         help='number of total epochs to run')
     parser.add_argument('--batchsize', default=25, type=int,
                         help='batchsize for optimizer updates')
-    parser.add_argument('--lr', default=0.025, type=float,
+    parser.add_argument('--lr', default=0.05, type=float,
                         metavar='LR', help='initial learning rate')
     parser.add_argument('--wd', default=1e-4, type=float,
                         help='weight decay (default: 1e-4)')
