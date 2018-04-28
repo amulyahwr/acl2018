@@ -12,7 +12,7 @@ This repository has the code for ACL'18 paper: To Attend or not to Attend: A Cas
 	* TrialData
 * [Glove embeddings](https://nlp.stanford.edu/projects/glove/)
 	* Common Crawl (840B)
-* I used this [library](https://iastate.box.com/s/o1izis36zlfsxvu8tzw5ij745xwbrcu9) for Stanford Parser, Stanford POS Tagger, Stanford Dependency Parser and Stanford Constituency Parser.
+* I used this [library](https://iastate.box.com/s/o1izis36zlfsxvu8tzw5ij745xwbrcu9) which contains [Stanford Parser](http://nlp.stanford.edu/software/lex-parser.shtml), [Stanford POS Tagger](http://nlp.stanford.edu/software/tagger.shtml), [Stanford Dependency Parser](http://nlp.stanford.edu/software/nndep.shtml) and [Stanford Constituency Parser](https://nlp.stanford.edu/software/srparser.html).
 
 ## How to run the code?
 Download any model(eg. linear_bilstm_attn) and please:
