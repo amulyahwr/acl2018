@@ -4,6 +4,7 @@ This repository has the code for ACL'18 paper: To Attend or not to Attend: A Cas
 ## Dependencies
 * Python (tested on 2.7.13)
 * [Pytorch](http://pytorch.org/) (tested on 0.2.0_3)
+* tqdm
 * numpy (tested on 1.14.0)
 * scipy (tested on 1.0.0)
 * [SICK dataset](http://alt.qcri.org/semeval2014/task1/index.php?id=data-and-tools)
