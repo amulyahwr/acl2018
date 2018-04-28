@@ -3,7 +3,6 @@ from __future__ import print_function
 
 import os
 import math
-import gensim
 
 import torch
 from vocab import Vocab

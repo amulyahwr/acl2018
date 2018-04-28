@@ -4,7 +4,6 @@ from __future__ import print_function
 import os
 import scipy.stats
 import torch
-import gensim
 from vocab import Vocab
 import numpy as np
 
@@ -35,30 +34,6 @@ def load_word_vectors(path):
             f.write(word+'\n')
     vocab = Vocab(filename=path+'.vocab')
     torch.save(vectors, path+'.pth')
-    return vocab, vectors
-
-def load_dep_vectors(path):
-    if os.path.isfile(path+'.pth') and os.path.isfile(path+'.vocab'):
-        print('==> File found, loading to memory')
-        vectors = torch.load(path+'.pth')
-        vocab = Vocab(filename=path+'.vocab')
-        return vocab, vectors
-    # saved file not found, read from txt file
-    # and create tensors for word vectors
-    print('==> File not found, preparing, be patient')
-    model = gensim.models.Word2Vec.load(path)
-
-    vectors = torch.zeros(len(model.wv.vocab), 22500)
-
-    with open(path + '.vocab', 'w') as f,\
-        open(path + '.pth', 'w') as d:
-        idx = 0
-        for word in list(model.wv.vocab):
-            f.write(word + '\n')
-            vectors[idx] = torch.Tensor(np.asarray(model[word]))
-            idx += 1
-    vocab = Vocab(filename=path + '.vocab')
-    torch.save(vectors, path + '.pth')
     return vocab, vectors
 
 # write unique words from a set of files to a new file
