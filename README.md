@@ -21,7 +21,7 @@ Download any model(eg. treelstm_const_attn) and please:
 	* file0 ---- location of train dataset file
 	* file1 ---- location of trial(dev) dataset file
 	* file2 ---- location of test dataset file
-* Put the downloaded **utility library** as shown below.
+* Put the downloaded **utility library** as shown above.
 ![file_structure](./markup_imgs/file_structure.png)
 * Go to folder **scripts** and run command:
 	* python preprocess-sick.py
@@ -32,5 +32,5 @@ Download any model(eg. treelstm_const_attn) and please:
 	* If the command runs successfully, then you should see the output as follows:
 	  ![conf2](https://github.com/amulyahwr/acl2018/blob/master/markup_imgs/conf2.png)
 
-## Acknowledgment
-The code in this repository is an adaptation of PyTorch implelementation available at: [https://github.com/dasguptar/treelstm.pytorch].
+## Acknowledgement
+The code in this repository is an adaptation of PyTorch implementation available at: [https://github.com/dasguptar/treelstm.pytorch].
