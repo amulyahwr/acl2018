@@ -4,16 +4,16 @@ Please use below for
 * bibtex citation:
 >@INPROCEEDINGS {guptaamulyazhangzhu2018,  
 
->author = {Gupta., A. and Zhang., Z.},
+>author = {Gupta, Amulya and Zhang, Zhu},
 
->booktitle = {Proceedings of the 56th Annual Meeting of Association for Computational Linguistics}
+>booktitle = {Proceedings of the 56th Annual Meeting of Association for Computational Linguistics},
 
 >title  = {To Attend or not to Attend: A Case Study on Syntactic Structures for Semantic Relatedness},
 
 >year   = {2018}}
 
 * APA citation:
-> Gupta., A. and Zhang., Z. (2018). To Attend or not to Attend: A Case Study on Syntactic Structures for Semantic Relatedness. *Proceedings of the 56th Annual Meeting of Association for Computational Linguistics.*
+> Gupta, A. and Zhang, Z. (2018). To Attend or not to Attend: A Case Study on Syntactic Structures for Semantic Relatedness. *Proceedings of the 56th Annual Meeting of Association for Computational Linguistics.*
 
 ## Dependencies
 * Python (tested on 2.7.13)
