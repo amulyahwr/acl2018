@@ -10,9 +10,7 @@ Please use below for
 
 >title  = {To Attend or not to Attend: A Case Study on Syntactic Structures for Semantic Relatedness},
 
->year   = {2018}
-
->}
+>year   = {2018}}
 
 * APA citation:
 > Gupta., A. and Zhang., Z. (2018). To Attend or not to Attend: A Case Study on Syntactic Structures for Semantic Relatedness. *Proceedings of the 56th Annual Meeting of Association for Computational Linguistics.*
