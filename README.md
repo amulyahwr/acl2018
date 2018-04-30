@@ -4,7 +4,7 @@ Please use below for
 * bibtex citation:
 >@INPROCEEDINGS {guptaamulyazhangzhu2018,  
 
->author = {Gupta, Amulya and Zhang, Zhu},
+>author = {Gupta., A. and Zhang., Z.},
 
 >booktitle = {Proceedings of the 56th Annual Meeting of Association for Computational Linguistics}
 
