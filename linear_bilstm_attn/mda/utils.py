@@ -50,20 +50,14 @@ def build_vocab(filenames, vocabfile):
 
 # mapping from scalar to vector
 def map_label_to_target(label,num_classes):
-    target = torch.zeros(1, num_classes)
+    target = torch.zeros(1,num_classes)
+    ceil = int(math.ceil(label))
+    floor = int(math.floor(label))
 
-    mean = label
-    std_dev = 0.4251
-
-    for idx in range(num_classes):
-        target[0][idx] = scipy.stats.norm(mean, std_dev).pdf(idx + 1)
-
-    _, indices = torch.sort(target)
-
-    if torch.sum(target) > 1:
-        target[0][indices[0][4]] = target[0][indices[0][4]] - (torch.sum(target) - 1)
-
-    elif torch.sum(target) < 1:
-        target[0][indices[0][4]] = target[0][indices[0][4]] + 1 - (torch.sum(target))
-
+    if ceil==floor:
+        target[0][floor-1] = 1
+    else:
+        target[0][floor-1] = ceil - label
+        target[0][ceil-1] = label - floor
     return target
+
