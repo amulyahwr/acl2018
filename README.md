@@ -3,10 +3,10 @@ This repository has the code for ACL'18 paper: To Attend or not to Attend: A Cas
 Please use below for
 * bibtex citation:
 <pre lang="bibtex"><code>@INPROCEEDINGS {guptaamulyazhangzhu2018,
-					author = {Gupta, Amulya and Zhang, Zhu},
-					booktitle = {Proceedings of the 56th Annual Meeting of Association for Computational Linguistics},
-					title  = {To Attend or not to Attend: A Case Study on Syntactic Structures for Semantic Relatedness},
-					year   = {2018}}
+author = {Gupta, Amulya and Zhang, Zhu},
+booktitle = {Proceedings of the 56th Annual Meeting of Association for Computational Linguistics},
+title  = {To Attend or not to Attend: A Case Study on Syntactic Structures for Semantic Relatedness},
+year   = {2018}}
 </code></pre>
 * APA citation:
 > Gupta, A. and Zhang, Z. (2018). To Attend or not to Attend: A Case Study on Syntactic Structures for Semantic Relatedness. *Proceedings of the 56th Annual Meeting of Association for Computational Linguistics.*
