@@ -28,7 +28,7 @@ Please use below for
 ## How to run the code?
 Download any model(eg. linear_bilstm_attn) and please:
 * Change value of  **default** in **–glove** argument in **config.py** to point to the location of downloaded Glove embeddings.
-* Change path of following in **scripts/preprocess-sick.py** to point to downloaded train, trial and test datasets, respectively:
+* Change path of following in **scripts/preprocess-sick.py** to point to downloaded train, trial and test datasets(make sure that all the files are converted into **csv** before use), respectively:
 	* file0 ---- location of train dataset file
 	* file1 ---- location of trial(dev) dataset file
 	* file2 ---- location of test dataset file
