@@ -3,7 +3,7 @@ This repository has the code for ACL'18 paper: [To Attend or not to Attend: A Ca
 Please use below for
 * bibtex citation:
 <pre lang="bibtex"><code>@INPROCEEDINGS {gupta-zhang:2018:Long,
-  					author = "Gupta, Amulya and Zhang, Zhu",
+  author = "Gupta, Amulya and Zhang, Zhu",
   					title = "To Attend or not to Attend: A Case Study on Syntactic Structures for Semantic Relatedness",
   					booktitle = "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
   					year = "2018",
