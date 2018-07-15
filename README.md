@@ -1,12 +1,18 @@
 ## Introduction
-This repository has the code for ACL'18 paper: To Attend or not to Attend: A Case Study on Syntactic Structures for Semantic Relatedness by Amulya Gupta and Zhu Zhang.
+This repository has the code for ACL'18 paper: [To Attend or not to Attend: A Case Study on Syntactic Structures for Semantic Relatedness by Amulya Gupta and Zhu Zhang.](http://aclweb.org/anthology/P18-1197)
 Please use below for
 * bibtex citation:
-<pre lang="bibtex"><code>@INPROCEEDINGS {guptaamulyazhangzhu2018,
-		author = {Gupta, Amulya and Zhang, Zhu},
-		booktitle = {Proceedings of the 56th Annual Meeting of Association for Computational Linguistics},
-		title  = {To Attend or not to Attend: A Case Study on Syntactic Structures for Semantic Relatedness},
-		year   = {2018}}
+<pre lang="bibtex"><code>@INPROCEEDINGS {gupta-zhang:2018:Long,
+  					author = "Gupta, Amulya and Zhang, Zhu",
+  					title = "To Attend or not to Attend: A Case Study on Syntactic Structures for Semantic Relatedness",
+  					booktitle = "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  					year = "2018",
+  					publisher = "Association for Computational Linguistics",
+  					pages = "2116--2125",
+  					location = "Melbourne, Australia",
+  					url = "http://aclweb.org/anthology/P18-1197"
+}
+
 </code></pre>
 * APA citation:
 > Gupta, A. and Zhang, Z. (2018). To Attend or not to Attend: A Case Study on Syntactic Structures for Semantic Relatedness. *Proceedings of the 56th Annual Meeting of Association for Computational Linguistics.*
